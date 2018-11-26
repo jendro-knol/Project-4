@@ -1,0 +1,69 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <title>Colicss</title>
+
+<header>   
+  <div class="header">
+  <h1>Colicss</h1>
+  <p>Cloud en hosting</p>  
+</div>
+</header>  
+
+  
+<div class="topnav" id="myTopnav">
+    <a href="Home.html" class="hidden">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Hosting
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Hostingpakketen</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">Cloud
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Cloudpakketen</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">Contact
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="contactformulier.html">Contact</a>
+      </div>
+    </div> 
+    <a href="#about">Over ons</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+  
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
