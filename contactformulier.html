@@ -18,13 +18,12 @@
   
 <div class="topnav" id="myTopnav">
     <a href="Home.html" class="hidden">Home</a>
-    <a href="#news">Informatie</a>
     <div class="dropdown">
       <button class="dropbtn">Hosting
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
-        <a href="#">Hostingpakketen</a>
+        <a href="hostingpakketen.html">Hostingpakketen</a>
       </div>
     </div> 
     <div class="dropdown">
@@ -59,39 +58,41 @@
   </script>
 
 
-<h2 class="h2">Contactgegevens</h2>
-<p1>Naam: Jendro Knol <br>
-    E-Mail: hjj.knol@student.alfa-college.nl <br>
-    Telefoonnummer: 06 15285851 <br> </p1>
+<ul>
+    <li>Jendro Knol</li>
+    <li>hjj.knol@student.alfa-college.nl</li>
+    <li>Telefoonnummer</li>
+  </ul>
 
 
 <div class="container">
   <form action="/action_page.php">
-    <label for="fname">Voornaam</label>
-    <input type="text" id="fname" name="firstname" placeholder="Uw voornaam...">
+    <label class="voornaam" for="fname">Voornaam</label>
+    <input type="text" id="fname2" name="firstname" placeholder="Uw voornaam...">
 
-    <label for="lname">Achternaam</label>
-    <input type="text" id="lname" name="lastname" placeholder="Uw achternaam...">
+    <label class="voornaam" for="lname">Achternaam</label>
+    <input type="text" id="lname2" name="lastname" placeholder="Uw achternaam...">
 
-    <label for="country">Land</label>
+    <label class="voornaam" for="country">Land</label>
     <select id="country" name="country">
       <option value="australia">Nederland</option>
       <option value="canada">Belgie</option>
     </select>
 
-    <label for="subject">Onderwerp</label>
+    <label class="voornaam" for="subject">Onderwerp</label>
     <textarea id="subject" name="subject" placeholder="schrijf hier u vraag of opmerking..." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
 </div>
-
-
+    
 
 
 </body>
 
-
+<div class="footer">
+    <p>facebook etc</p>
+</div>
 
 
 
