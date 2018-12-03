@@ -129,20 +129,26 @@ p{
   color: white;
 }
 
+/*hier begint contactformulier*/
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */  
-  border: 1px solid black; /* Gray border */
-  border-radius: 0px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+ /* Style inputs, select elements and textareas */
+ input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: white;
+}
+
+/* Style the submit button */
 input[type=submit] {
   background-color: midnightblue;
   color: white;
@@ -150,23 +156,62 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  float: right;
+  margin-top: 10px;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: midnightblue;
-}
-
-/* Add a background color and some padding around the form */
+/* Style the container */
 .container {
+  border-radius: 5px;
+  background-color: black;
+  padding: 20px;
+  width: 700px;
+  margin-top: 60px;
+  margin-left: 765px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+} 
+/*hier eindigt contactformulier*/
+  
+/*hier begint contactgegevens de conatiner ervan*/
+.container1 {
   border-radius: 15px;
   background-color: black;
   padding: 20px;
   width: 550px;
-  margin-left: 55%;
-  margin-top: -80px;
+  max-width: 100%;
+  margin-left: 0%;
+  margin-top:  7px;
   
 }
+/*hier eindigt conatctgegevens*/
 
 p1{ margin-left: 50%;
 
@@ -178,14 +223,18 @@ p1{ margin-left: 50%;
 
 }
 
-
+/*hier begint hostingpakketene*/
+* {
+  box-sizing: border-box;
+}
 /* Create three columns of equal width */
 .columns {
     float: left;
-    width: 32.2%;
+    width: 33.3%;
     padding: 8px;
     margin-top: 50px;
     margin-bottom: 50px;
+    outline: none;
 }
 
 /* Style the list */
@@ -201,6 +250,7 @@ p1{ margin-left: 50%;
 /* Add shadows on hover */
 .price:hover {
     box-shadow: 0 12px 12px 0 midnightblue
+    
 }
 
 /* Pricing header */
@@ -249,6 +299,7 @@ p1{ margin-left: 50%;
     text-decoration: none;
     font-size: 18px;
 }
+/*hier eindigd hostingpakketen*/
 
 /* Change the width of the three columns to 100% 
 (to stack horizontally on small screens) */
@@ -257,6 +308,91 @@ p1{ margin-left: 50%;
         width: 100%;
     }
 }
+
+/*hier begint cloudpakketen*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns1 {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+  margin-top: 50px;
+}
+
+/* Style the list */
+.price1 {
+  list-style-type: none;
+  border: 1px solid white;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price1:hover {
+  box-shadow: 0 12px 12px 0 midnightblue;
+  border-radius: 15px 15px 0px 0px;
+}
+
+/* Pricing header */
+
+.price1 .navv{
+  background-color: yellow;
+  color: white;
+  font-size: 25px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.price1 .navv1{
+  background-color: orange;
+  color: white;
+  font-size: 25px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.price1 .navv2{
+  background-color: green;
+  color: white;
+  font-size: 25px;
+  border-radius: 15px 15px 0px 0px;
+}
+/* List items */
+.price1 li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price1 .grey1 {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button1 {
+  background-color: midnightblue;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100% 
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns1 {
+      width: 100%;
+  }
+}
+/*hier eidigt cloudpakketen*/
+
 .footer {
   position: fixed;
   left: 0px;
