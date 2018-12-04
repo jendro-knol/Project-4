@@ -27,7 +27,9 @@
       </div>
     </div> 
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-	        <a href="klanten.php">Klantenpagina</a>
+          <a href="klanten.php">Klantenpagina</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          <a href="social.php">Social media</a>
     </div>
       </button>
       </div>

@@ -1,6 +1,6 @@
 
 
-body {margin:0;font-family:Arial}
+body {margin:0;font-family:Arial color:black;}
 
 .eerste {
 	
@@ -13,7 +13,6 @@ body {margin:0;font-family:Arial}
 .topnav {
   overflow: hidden;
   background-color: black;
-  margin-top: 100px;
 }
 
 .topnav a {
@@ -121,11 +120,21 @@ height: 100px;
 width: 100%;
   background-color: black;
 z-index: -1;
-position: fixed;
+position: relative;
 }
 h1{
   text-align: center;
   color: white ;
+}
+
+.ahref{
+  color: midnightblue;
+  margin-left: 47.5%;
+}
+.feed{
+  width: 500px;
+  margin-left: 1000px;
+  margin top: -220px;
 }
 
 p{
@@ -455,3 +464,5 @@ p1{ margin-left: 50%;
 
   
 /*hier eindigt klantenpagina*/
+
+

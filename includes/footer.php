@@ -1,3 +1,6 @@
 <div class="footer">
-           <p>facebook etc</p>
-    </div>
+   <p>Collics.nl</p>
+</div>
+
+
+
