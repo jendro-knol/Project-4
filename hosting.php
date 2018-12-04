@@ -70,8 +70,6 @@
       
     </body>
 
-    <div class="footer">
-           <p>facebook etc</p>
-    </div>
+  <?php include ("includes/footer.php"); ?>
 
 </html>

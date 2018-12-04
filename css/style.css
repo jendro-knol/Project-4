@@ -174,7 +174,7 @@ input[type=submit] {
   background-color: black;
   padding: 20px;
   width: 700px;
-  margin-top: 60px;
+  margin-top: -220px;
   margin-left: 765px;
 }
 
@@ -208,16 +208,32 @@ input[type=submit] {
 } 
 /*hier eindigt contactformulier*/
   
-/*hier begint contactgegevens de conatiner ervan*/
-.container1 {
-  border-radius: 15px;
-  background-color: black;
-  padding: 20px;
-  width: 550px;
-  max-width: 100%;
-  margin-left: 0%;
-  margin-top:  7px;
-  
+/*hier begint contactgegevens ervan*/
+#customers1 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+  margin-top: 60px;
+  margin-left: 60px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#customers1 td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers1 tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: midnightblue;
+  color: white;
+  text-align: center;
+  border-radius: 5px 5px 0px 0px;
 }
 /*hier eindigt conatctgegevens*/
 
@@ -410,3 +426,32 @@ p1{ margin-left: 50%;
   color: white;
   text-align: center;
 }
+
+/*hier begint klantenpagina*/
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 60px;
+  margin-left: 145px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: midnightblue;
+  color: white;
+}
+
+  
+/*hier eindigt klantenpagina*/

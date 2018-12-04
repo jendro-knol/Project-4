@@ -42,9 +42,7 @@ Het panel van deze prijs vond de samenwerking zo gaaf, dat ze de prijs beste inn
 
 </body>
 
-<div class="footer">
-    <p>facebook etc</p>
-  </div>
+ <?php include ("includes/footer.php"); ?>
 
 
 

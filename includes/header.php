@@ -5,6 +5,7 @@
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
+        <a href="hosting-info.php">Informatie</a>
         <a href="hosting.php">Hostingpakketen</a>
       </div>
     </div> 
@@ -12,7 +13,8 @@
       <button class="dropbtn">Cloud
         <i class="fa fa-caret-down"></i>
       </button>
-      <div class="dropdown-content">
+      <div class="dropdown-content"> 
+        <a href="cloud-info.php">Informatie</a>
         <a href="cloud.php">Cloudpakketen</a>
       </div>
     </div> 

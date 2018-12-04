@@ -30,6 +30,30 @@
   </script>
 
 
+    <table id="customers1">
+  <tr>
+    <th>Contactgegevens</th>
+  </tr>
+  <tr>
+    <td>Collics</td>
+  </tr>
+  <tr>
+    <td>Herenstraat 24</td>
+  </tr>
+  <tr>
+    <td>7776 AG, Slagharen</td>
+  </tr>
+  <tr>
+    <td>06-12412498</td>
+  </tr>
+  <tr>
+    <td>KVK: 05076893</td>
+  </tr>
+    </table>
+
+
+  
+
 
 
 <div class="container">
@@ -79,10 +103,7 @@
 
 </body>
 
-<div class="footer">
-    <p>facebook etc</p>
-</div>
-
+ <?php include ("includes/footer.php"); ?>
 
 
 </html>
