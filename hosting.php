@@ -39,7 +39,7 @@
           <li>512MB RAM</li>
           <li>1 Core</li>
           <li>100GB Dataverkeer per maand</li>
-          <li class="grey"><a href="#" class="button">Bestellen</a></li>
+          <li class="grey"><a href="prijs1.php" class="button">Bestellen</a></li>
         </ul>
 </div>
 <div class="columns">
@@ -50,7 +50,7 @@
           <li>1024MB RAM</li>
           <li>2 Cores</li>
           <li>200GB Dataverkeer per maand</li>
-          <li class="grey"><a href="#" class="button">Bestellen</a></li>
+          <li class="grey"><a href="prijs2.php" class="button">Bestellen</a></li>
         </ul>
 </div>
 </div>
@@ -62,7 +62,7 @@
           <li>2048MB RAM</li>
           <li>4 Cores</li>
           <li>Onbeperkt Dataverkeer per maand</li>
-          <li class="grey"><a href="#" class="button">Bestellen</a></li>
+          <li class="grey"><a href="prijs3.php" class="button">Bestellen</a></li>
         </ul>
 </div>
 

@@ -30,10 +30,10 @@
   </script>
 
 <div class="eerste">
-Algemene informatie over het bedrijf:<br>
+<br><b>Algemene informatie over het bedrijf:</b><br><br>
 
 Colicss is een innovatief en vernieuwend bedrijf uit Slagharen dat zich vooral bezighoudt met hosting en sinds kort ook de cloud.<br> 
-Het bedrijf gaat onder leiding van Rob Sieljes al een poos flink voor de wind en zijn binnen twee jaar gegroeid van een eenmanszaak naar een bedrijf met zes man personeel.<br>
+Het bedrijf gaat onder leiding van Rob Sieljes al een poos flink voor de wind en zijn binnen twee jaar gegroeid van een eenmanszaak naar een bedrijf met zes man personeel.<br><br>
 
 Onlangs hebben ze nog een prijs gewonnen voor beste innovatie binnen de hosting door samen te werken met het Alfa-college. <br>
 In dit project hebben studenten van het Alfa-college een hostingomgeving opgezet met daarop een testwebsite. <br>

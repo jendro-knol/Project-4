@@ -33,7 +33,7 @@
           <li class="navv">Geel</li>
           <li class="grey1">&#8364; 4.00 Per Maand</li>
           <li>10GB Opslag</li>
-          <li class="grey1"><a href="#" class="button1">Bestellen</a></li>
+          <li class="grey1"><a href="prijs4.php" class="button1">Bestellen</a></li>
         </ul>
 </div>
 <div class="columns1">
@@ -41,7 +41,7 @@
           <li class="navv1">Oranje</li>
           <li class="grey1">&#8364; 6.00 Per Maand</li>
           <li>100GB Opslag</li>
-          <li class="grey1"><a href="#" class="button1">Bestellen</a></li>
+          <li class="grey1"><a href="prijs5.php" class="button1">Bestellen</a></li>
         </ul>
 </div>
 <div class="columns1">
@@ -49,7 +49,7 @@
           <li class="navv2">Groen</li>
           <li class="grey1">&#8364; 10.00 Per Maand</li>
           <li>1000GB/1TB Opslag</li>
-          <li class="grey1"><a href="#" class="button1">Bestellen</a></li>
+          <li class="grey1"><a href="prijs6.php" class="button1">Bestellen</a></li>
         </ul>
 </div>
 

@@ -29,7 +29,9 @@
   }
   </script>
 
-Wat is hosting?<br><br>
+
+<div class="eerste">
+    <br><b>Wat is hosting?</b> <br><br>
 
 Met hosting wordt bedoeld het verhuren van ruimte op internet voor het opslaan van informatie, <br>
 afbeeldingen, video’s of andere data. <br><br>

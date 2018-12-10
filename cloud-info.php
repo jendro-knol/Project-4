@@ -15,7 +15,6 @@
 </div>
 </header>  
 
-  
   <?php include ("includes/header.php"); ?>
   
   <script>
@@ -29,7 +28,8 @@
   }
   </script>
 
-Wat is cloudopslag?<br><br>
+<div class="eerste">
+    <br> <b>Wat is cloudopslag?</b> <br><br>
 Cloudopslag is een service waarmee u gegevens kunt opslaan door deze via internet of een ander netwerk over te brengen naar een offsite opslagsysteem dat door een derde partij wordt onderhouden. <br>
 Er zijn honderden verschillende cloudopslagsystemen. Zo is er persoonlijke opslag voor het bewaren en/of maken van back-ups van e-mail, <br>
 afbeeldingen, video's en andere persoonlijke bestanden van individuele gebruikers. <br>

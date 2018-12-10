@@ -18,8 +18,11 @@
   
   <?php include ("includes/header.php"); ?>
 
-    <a class="ahref" href="http://facebook.com">  <i class="fa fa-facebook-f"></i> Facebook</a><br><br>
-    <a class="ahref" href="http://twitter.com">   <i class="fa fa-twitter"></i>  Twitter</a>
+  <a href="http://facebook.com" class="ahref"><i class="fa fa-facebook-f"></i>Facebook</a><br><br>
+  <a href="http://twitter.com" class="ahref"><i class="fa fa-twitter"></i>Twitter</a>
+
+
+
 
 <div class="feed">    
     <a class="twitter-timeline" href="https://twitter.com/ColicssHosting?ref_src=twsrc%5Etfw">Tweets by ColicssHosting</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
